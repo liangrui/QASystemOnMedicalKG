@@ -6,6 +6,24 @@
 - **行数**: 35行
 - **核心类**: ChatBotGraph
 
+### Mermaid主程序流程图
+```mermaid
+flowchart LR
+    User[用户<br>输入问题]
+    CM[chat_main]
+    QM[classify<br>分类模块]
+    PM[parser<br>解析模块]
+    SM[searcher<br>搜索模块]
+    O[输出答案]
+    
+    User --> CM
+    CM --> QM
+    QM -->|args, types| PM
+    PM -->|sqls| SM
+    SM -->|answer| O
+    O --> User
+```
+
 ---
 
 ## 完整代码
