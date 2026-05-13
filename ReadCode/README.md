@@ -36,6 +36,9 @@
 - [10_代码文件详解/answer_search.py详解.md](./10_代码文件详解/answer_search.py详解.md)
 - [10_代码文件详解/build_medicalgraph.py详解.md](./10_代码文件详解/build_medicalgraph.py详解.md)
 
+### 第六部分：数据分析
+- [11_medical.json数据分析报告.md](./11_medical.json数据分析报告.md) - medical.json 详细数据分布分析
+
 ---
 
 ## 🏗️ 系统架构
